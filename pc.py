@@ -129,7 +129,7 @@ debug = "n"
 discord_presence = "y"
 rig_identiier = "None"
 requested_diff = "NET"
-algorithm = "DUCO-S1"
+algorithm = "DUCO-S2"
 config = ConfigParser()
 donation_level = 0
 thread = []
@@ -458,7 +458,7 @@ def loadConfig():
                 + Fore.RESET
                 + Style.BRIGHT)
         else:
-            algorithm = "1"
+            algorithm = "2"
 
         efficiency = "95"
 
@@ -468,7 +468,7 @@ def loadConfig():
 
         requested_diff = "2"
         
-        rig_identiier = "Rig1"
+        rig_identiier = "Rig2"
 
         
 
