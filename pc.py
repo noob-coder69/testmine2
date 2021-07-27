@@ -129,7 +129,7 @@ debug = "n"
 discord_presence = "y"
 rig_identiier = "None"
 requested_diff = "NET"
-algorithm = "DUCO-S2"
+algorithm = "DUCO-S1"
 config = ConfigParser()
 donation_level = 0
 thread = []
@@ -458,9 +458,9 @@ def loadConfig():
                 + Fore.RESET
                 + Style.BRIGHT)
         else:
-            algorithm = "2"
+            algorithm = "1"
 
-        efficiency = "95"
+        efficiency = "99"
 
         threadcount = "8"
 
